@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UQ geospatial community</title>
+    <link>https://example.com/</link>
+    <description>Recent content on UQ geospatial community</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How it works</title>
+      <link>https://example.com/</link>
+      <pubDate>Thu, 27 Dec 2018 20:46:49 -0600</pubDate>
+      
+      <guid>https://example.com/</guid>
+      <description>👩‍💻 We run monthly skill sharing tutorial sessions where a member of the community will teach us something they have learned.This is usually on the last thursday of each month.
+Check out our blog for previous tutorials.
+Upcoming eventsThe next workshop will form part of the ResBaz festival. 👇
+
+A low cost skill- and community-building festival where researchers come together to upskill in digital research tools and scholarship.</description>
+    </item>
+    
+  </channel>
+</rss>

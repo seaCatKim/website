@@ -1,0 +1,45 @@
+baseURL: https://example.com
+languageCode: en-us
+defaultContentLanguage: en
+title: 
+theme: hugo-cuppa-r
+googleAnalytics: UA-123456789-1
+disqusShortname: yourdiscussshortname
+enableGitInfo: yes
+taxonomies:
+  tag: tags
+permalinks: 
+  post: /:filename/
+imaging:
+  quality: 99
+params:
+  codePenUser: someUser
+  dateFormat: Jan 2, 2006
+  description: An inclusive community of UQ staff and students who teach each other        geospatial analysis, particularly with R, Python, QGIS and other open source tools. 
+  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme).
+    Deployed to [Netlify](https://www.netlify.com/).
+  homeMetaContent: An accessibility-friendly Hugo theme, ported from the original
+    Cupper project.
+  katex: yes
+menu:
+  nav:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Blog
+      url: /post/
+      weight: 2
+    - name: Tags
+      url: /tags/
+      weight: 3
+    - name: About
+      url: /about/
+      weight: 4
+    - name: RSS
+      url: /index.xml
+      weight: 5
+  
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
