@@ -8,14 +8,14 @@ disqusShortname: yourdiscussshortname
 enableGitInfo: yes
 taxonomies:
   tag: tags
-permalinks: 
+permalinks:
   post: /:filename/
 imaging:
   quality: 99
 params:
   codePenUser: someUser
   dateFormat: Jan 2, 2006
-  description: An inclusive community of UQ staff and students who teach each other        geospatial analysis, particularly with R, Python, QGIS and other open source tools. 
+  description: An inclusive community of UQ staff and students who teach each other        geospatial analysis, particularly with R, Python, QGIS and other open source tools.
   footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme).
     Deployed to [Netlify](https://www.netlify.com/).
   homeMetaContent: An accessibility-friendly Hugo theme, ported from the original
@@ -38,7 +38,7 @@ menu:
     - name: RSS
       url: /index.xml
       weight: 5
-  
+      
 markup:
   goldmark:
     renderer:
