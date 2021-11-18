@@ -1,0 +1,103 @@
+---
+title: "Create a post"
+author: "Catherine Kim"
+date: "2021-11-18"
+output: html_document
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="geospatial-analysis-community-of-practice---the-university-of-queensland" class="section level2">
+<h2>Geospatial Analysis Community of Practice - The University of Queensland</h2>
+<p>Blurb</p>
+<p>Unveil the new <strong>website</strong>!</p>
+<p>Point of contact - Mitchel Rudge</p>
+</div>
+<div id="creating-a-post-on-the-uqgsac-website" class="section level2">
+<h2>Creating a post on the UQGSAC website</h2>
+<p><strong>Catherine Kim, PhD</strong>
+Postdoc/Tech Trainer</p>
+<p>What we will cover:</p>
+<ol style="list-style-type: decimal">
+<li>Git and GitHub basics</li>
+<li>Rmarkdown basics</li>
+<li>blogdown basics</li>
+<li>How to create a post on the UQGSAC blogdown website</li>
+</ol>
+<div id="git" class="section level3">
+<h3>Git</h3>
+<p>A version control software useful for collaborating on and sharing code.</p>
+<p>Git is the software itself and there are several platforms that are like online repositories that work with Git: Bitbucket, GitLab, and GitHub to name a few.</p>
+<div id="terminology" class="section level4">
+<h4>Terminology</h4>
+<p>repository
+pull
+push
+stage
+commit
+fork
+clone
+fetch
+main
+remote
+origin</p>
+</div>
+</div>
+<div id="r-markdown" class="section level3">
+<h3>R Markdown</h3>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.</p>
+<p>File types:</p>
+<p>.md - markdown<br />
+.Rmd - R markdown -&gt; rendered to .html using Pandoc<br />
+.Rmarkdown - also R markdown -&gt; compiled to .markdown documents</p>
+<p><a href="https://bookdown.org/yihui/blogdown/output-format.html" class="uri">https://bookdown.org/yihui/blogdown/output-format.html</a></p>
+</div>
+<div id="formatting" class="section level3">
+<h3>Formatting</h3>
+<p>Can <strong>bold</strong> and <em>italicize</em> text.</p>
+<p>Make lists:</p>
+<ul>
+<li>one</li>
+<li>two</li>
+<li>three</li>
+</ul>
+<p>Ordered lists:</p>
+<ol style="list-style-type: decimal">
+<li>lists</li>
+<li>need spaces</li>
+<li>before and after</li>
+</ol>
+<p>For a return to start a new line, leave <strong>two spaces</strong> at the end of the line.<br />
+Test.</p>
+</div>
+<div id="including-code" class="section level3">
+<h3>Including code</h3>
+<p>You can embed an R code chunk like this:</p>
+<pre class="r"><code>summary(cars)</code></pre>
+<pre><code>##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00</code></pre>
+<p>There is also inline code: The mean of speed in the cars data set is 15.4.</p>
+</div>
+<div id="including-plots" class="section level3">
+<h3>Including Plots</h3>
+<p>You can also embed plots, for example:</p>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/pressure-1.png" width="672" /></p>
+</div>
+</div>
+<div id="how-to-create-a-post" class="section level2">
+<h2>How to create a post</h2>
+<p>Git stuff:</p>
+<ol style="list-style-type: decimal">
+<li>Fork the repo</li>
+<li>Clone the repo in a new RStudio project</li>
+<li>Use blogdown::new_post() in the console to create a new post</li>
+</ol>
+<p>permalink</p>
+</div>
